@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="18sp"
+       android:textColor="?attr/colorPrimary"
+       android:layout_margin="32dp"
+       android:hint="输入昵称" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_margin="30dp"
+        android:textColor="?attr/colorPrimary"/>
+</LinearLayout>
