@@ -3,4 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <com.tencent.av.opengl.ui.GLRootView
+        android:id="@+id/av_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>

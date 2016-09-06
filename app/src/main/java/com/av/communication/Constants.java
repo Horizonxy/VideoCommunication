@@ -19,7 +19,7 @@ public class Constants {
     public static final int TIME_OUT = 5000;
     public static final int REQ_PERMISSIONS = 100;
 
-    public static final String CHAT_NUM = "1001";
+    public static final String ROOM_NUM = "1001";
 
     public static final int AUDIO_VOICE_CHAT_MODE = 0;
 
@@ -38,4 +38,6 @@ public class Constants {
     public static final String ACTION_CAMERA_CLOSE_IN_LIVE = PACKAGE + ".ACTION_CAMERA_CLOSE_IN_LIVE";
     public static final String ACTION_SWITCH_VIDEO = PACKAGE + ".ACTION_SWITCH_VIDEO";
     public static final String ACTION_HOST_LEAVE = PACKAGE + ".ACTION_HOST_LEAVE";
+
+    public static final int VIDEO_VIEW_MAX = 4;
 }

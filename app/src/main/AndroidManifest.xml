@@ -58,6 +58,7 @@
         </activity>
 
         <activity android:name=".activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="portrait"/>
 
         <!-- TLS Qal 一些服务 -->
